@@ -10,6 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #fff0f5;
 }
 
 nav {
@@ -23,7 +24,7 @@ nav {
 nav a {
   color: black;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
 }
 .jumbotron {
@@ -52,9 +53,16 @@ nav a {
 .story-content {
   padding-right: 1rem;
 }
+.story-content h3 {
+  font-weight: 500;
+}
+.personal-content h3 {
+  font-weight: 500;
+}
 .personal-content {
   padding-left: 1rem;
 }
+
 .main-content {
   margin-top: 3rem;
   align-items: start;
@@ -67,8 +75,12 @@ nav a {
   width: 500px;
   text-align: justify;
 }
+.story-word p {
+  font-weight: 300;
+}
 .personal-content p {
   width: 500px;
+  font-weight: 300;
 }
 .footer-content {
   display: flex;
@@ -76,6 +88,12 @@ nav a {
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
+}
+.footer-content h2 {
+  font-weight: 500;
+}
+.icon {
+  animation: fadeIn 3s;
 }
 #icons1 {
   margin-right: 12rem;
@@ -133,5 +151,11 @@ nav a {
   }
   #icons3 {
     margin-left: 5rem;
+  }
+  .story-content h3 {
+    text-align: center;
+  }
+  .personal-content h3 {
+    text-align: center;
   }
 }

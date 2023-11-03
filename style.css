@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: inline;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #fff0f5;
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-color: #ffd8e5;
+  font-size: 15px;
+  padding: 40px;
+  text-align: center;
+  color: black;
+}
+
+.jumbotron img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.story-content {
+  padding-right: 1rem;
+}
+.personal-content {
+  padding-left: 1rem;
+}
+.main-content {
+  margin-top: 3rem;
+  align-items: start;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.story-word {
+  width: 500px;
+  text-align: justify;
+}
+.personal-content p {
+  width: 500px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.icon i {
+  transition: 0.15s;
+}
+.icon i:hover {
+  opacity: 0.7;
+}
+.icon i:active {
+  opacity: 0.5;
+}
